@@ -12,6 +12,11 @@ export default defineConfig({
         target: 'http://localhost:5000',
         changeOrigin: true
       }
-    }
+    },
+     // Add this for Vercel
+    build: {
+    outDir: 'dist',
+    sourcemap: false
+  }
   }
 })
