@@ -10,7 +10,7 @@ const getToken = () => {
 };
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://ai.edatech.ai/app",
+  baseUrl: "https://kingscarebackend.onrender.com/",
   
   prepareHeaders: async (headers) => {
     const token = getToken();
